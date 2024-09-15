@@ -1,12 +1,14 @@
 import React from 'react';
-import NavBar from './components/NavBar';
-import HeroSection from './components/HeroSection';
+import NavBar from './components/Nav/NavBar';
+import HeroSection from './components/HeroSection/HeroSection';
+import About from './components/About/About';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <HeroSection/>
+      <About/>
     </div>
   );
 }
