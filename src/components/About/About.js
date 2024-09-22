@@ -1,8 +1,41 @@
 import React from 'react';
+import ScrollReveal from 'scrollreveal';
 import out from '../../assets/out.jpg';
 import './About.css'; 
 
+const scrollRevealOption = {
+  distance: "50px",
+  origin: "bottom",
+  duration: 1000,
+};
+
 function About() {
+
+  // about container
+ScrollReveal().reveal(".about__image img", {
+  ...scrollRevealOption,
+  origin: "left",
+});
+
+ScrollReveal().reveal(".about__content .section__subheader", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".about__content .section__header", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal(".about__content .section__description", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+
+ScrollReveal().reveal(".about__btn", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
 
   return (
     <section class="section__container booking__container">
