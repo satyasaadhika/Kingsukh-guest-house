@@ -2,3 +2,70 @@
     margin: 0;
     padding: 0;
 }
+
+.section__container {
+    max-width:1200px;
+    margin: auto;
+    padding: 1rem 2rem;
+  }
+  .booking__container {
+    padding-block: 0;
+    margin-bottom: -200%;
+  } 
+  .about__container {
+    overflow: hidden;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .about__image img {
+    max-width: 450px;
+    margin: auto;
+    border-radius: 5px;
+  }
+.about__content{
+  margin-left: 40px;
+}  
+.section__subheader {
+    margin-bottom: 0.5rem;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color:#0c0a09;
+  }
+  
+.section__subheader::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translate(1rem, -50%);
+    height: 2px;
+    width: 4rem;
+    background-color: #e82574;
+  }
+  
+.section__header {
+    max-width: 600px;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #0c0a09;
+  }
+  
+.section__description {
+    max-width: 600px;
+    margin-bottom: 1rem;
+    color: #78716c;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 25px;
+  }
+.about__content h4 {
+  margin-top: 10px;
+}
+.about__content h4 a{
+  text-decoration: none;
+  color: #0000EE;
+  font-size: 18px;
+}
