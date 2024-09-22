@@ -1,16 +1,15 @@
 import React from 'react';
-import ScrollReveal from 'scrollreveal';
 import out from '../../assets/out.jpg';
+import ScrollReveal from 'scrollreveal';
 import './About.css'; 
 
+function About() {
+  
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
   duration: 1000,
 };
-
-function About() {
-
   // about container
 ScrollReveal().reveal(".about__image img", {
   ...scrollRevealOption,
