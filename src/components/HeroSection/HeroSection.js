@@ -31,7 +31,7 @@ function HeroSection(){
       In Our <span>Guest House</span>.</h1>
     </div>
 
-    <section class="section__container booking__container">
+    <section class="header__container">
       <div class="booking__form">
         <div class="input__group input__btn">
           <a href="#">

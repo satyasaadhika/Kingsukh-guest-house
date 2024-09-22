@@ -29,11 +29,11 @@
     margin-bottom: 10px;
   }
 
-  .booking__container {
+  .header__container {
     padding-block: 0;
   }
 
-  .section__container {
+  .header__container {
     max-width: 1200px;
     margin: auto;
     padding: 5rem 1rem;
