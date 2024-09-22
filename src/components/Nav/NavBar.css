@@ -18,6 +18,8 @@ body{
     justify-content: space-evenly;
     padding: 30px 0px 20px 0px;
     background-color: var(--bg1-color);
+    position: fixed;
+    width: 100%;
   }
   
   .navbar-logo{
