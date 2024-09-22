@@ -69,3 +69,28 @@
   color: #0000EE;
   font-size: 18px;
 }
+
+@media (max-width: 1200px) {
+  .about__image img {
+    width: 100%;
+  }
+  .about__content{
+    margin-left: 0px;
+    margin-top: 40px;
+  }  
+}
+
+@media (max-width: 992px) {
+  .about__container {
+    display: block;
+  }
+  .about__content h4 a{
+    font-size: 16px;
+  }
+  .section__description {
+    width: 100%;
+    font-size: 16px;
+    word-spacing: 1px;
+    line-height: 20px;
+  }
+}

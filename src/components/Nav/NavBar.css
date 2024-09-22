@@ -83,6 +83,10 @@ body{
       margin: 0;      
     }
     }
-
+    @media (max-width: 400px) { 
+      .navbar-logo {
+        display: none;
+      }
+      }
   
 
