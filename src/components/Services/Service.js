@@ -22,12 +22,12 @@ ScrollReveal().reveal(".service__list li", {
 });
 
     return(
-    <section class="service" id="service">
-        <div class="section__container service__container">
-         <div class="service__content">
-            <p class="section__subheader">SERVICES</p>
-            <h2 class="section__header">Strive Only For The Best.</h2>
-            <ul class="service__list">
+    <section className="service" id="service">
+        <div className="section__container service__container">
+         <div className="service__content">
+            <p className="section__subheader">SERVICES</p>
+            <h2 className="section__header">Strive Only For The Best.</h2>
+            <ul className="service__list">
               <li>
                 <span><GrShieldSecurity /></span>
                 High Class Security

@@ -19,7 +19,7 @@ function NavBar() {
         <li><a class="gallary" href="#about">Gallary</a></li>
         <li><a  class="gallary" href="#contact">Contact</a></li>
       </ul>
-      <button class="btn"><a href='#'>Book Now</a></button>
+      <button className="btn"><a href='#'>Book Now</a></button>
     </nav>
   );
 }

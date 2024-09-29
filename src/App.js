@@ -8,6 +8,7 @@ import Booking from './components/Booking/Booking';
 import Gallary from './components/Gallary/Gallary';
 import Contact from './components/Contact/Contact';
 import Map from './components/Map/Mapcont';
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Gallary/>
       <Contact/>
       <Map/>
+      <Footer/>
     </div>
   );
 }

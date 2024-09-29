@@ -32,8 +32,8 @@ function HeroSection(){
     </div>
 
     <section class="header__container">
-      <div class="booking__form">
-        <div class="input__group input__btn">
+      <div className="booking__form">
+        <div className="input__group input__btn">
           <a href="#">
             <button class="btn">BOOK NOW</button>
           </a>
