@@ -7,6 +7,7 @@ import Services from './components/Services/Service';
 import Booking from './components/Booking/Booking';
 import Gallary from './components/Gallary/Gallary';
 import Contact from './components/Contact/Contact';
+import Map from './components/Map/Mapcont';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Booking/>
       <Gallary/>
       <Contact/>
+      <Map/>
     </div>
   );
 }
