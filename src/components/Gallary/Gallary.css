@@ -1,6 +1,9 @@
 #gallary{
     margin-top: 100px;
 }
+.about_content{
+  text-align: center;
+}
 .container11 {
     width: 100%;
     display: grid;

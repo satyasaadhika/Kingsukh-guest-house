@@ -15,7 +15,7 @@ import Img11 from '../../assets/header.jpg';
 function Gallary() {
   return (
     <section id="gallary">
-      <div className="about__content">
+      <div className="about_content">
         <p className="section__subheader">GALLERY</p>
       </div>
       <br />
