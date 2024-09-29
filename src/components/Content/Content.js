@@ -5,10 +5,24 @@ import { FcMms } from "react-icons/fc";
 import { FcStart } from "react-icons/fc";
 import Room from '../../assets/small.jpg';
 import Rooms from '../../assets/room1.jpg';
+import ScrollReveal from 'scrollreveal';
 import './Content.css';
 
+
+const scrollRevealOption = {
+  distance: "60px",
+  origin: "bottom",
+  duration: 1000,
+};
+
+
 function Content(){
- 
+ // room container
+ScrollReveal().reveal(".room__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
   return (
         <section class="section__container room__container" id="rooms">
       <p class="section__subheader">OUR LIVING ROOM</p>
