@@ -31,9 +31,14 @@ ScrollReveal().reveal(".about__content .section__description", {
   delay: 1500,
 });
 
-ScrollReveal().reveal(".about__btn", {
+ScrollReveal().reveal(".about__content h4", {
   ...scrollRevealOption,
   delay: 2000,
+});
+
+ScrollReveal().reveal(".about__btn", {
+  ...scrollRevealOption,
+  delay: 2500,
 });
 
   return (
@@ -47,7 +52,8 @@ ScrollReveal().reveal(".about__btn", {
           <p class="section__subheader">ABOUT US</p>
           <h2 class="section__header">The Best Holidays Start Here!</h2>
           <p class="section__description">
-            Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay. <br /></p>
+            Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay. <br />
+          </p>
             <h4><a href="#">Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</a></h4>
             <h4><a href="tel:+919007062180"> Contact us: +91 9007062180 </a></h4>
             <br />
